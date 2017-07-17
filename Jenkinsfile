@@ -21,4 +21,5 @@ node {
     ])
     
     sh 'git log'
+    echo '*** Hello ***'
 }
