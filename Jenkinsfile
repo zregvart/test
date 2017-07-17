@@ -6,6 +6,7 @@ node {
          extensions: scm.extensions + [[
              $class: 'PreBuildMerge',
              options: [
+                 mergeRemote: 'origin',
                  fastForwardMode: 'FF',
                  mergeTarget: 'master'
              ]
