@@ -13,4 +13,6 @@ node {
          ]],
          userRemoteConfigs: scm.userRemoteConfigs
     ])
+    
+    sh 'git log'
 }
